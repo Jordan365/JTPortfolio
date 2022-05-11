@@ -1,0 +1,21 @@
+#JT-info {
+    display: flex;
+    flex: 0 1 1000px;
+    justify-content: center;
+    margin: 40px 20px;
+}
+
+#JT-image {
+    height: 100%;
+    width: 100%;
+}
+
+#JT-image-container {
+    display: inline-flex;
+    flex: 0 1 300px;
+}
+
+#JT-about-container {
+    display: inline-flex;
+    flex: 0 1 700px;
+}
