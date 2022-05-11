@@ -14,13 +14,14 @@
 
 #JT-image-container {
     display: flex;
-    flex: 0 1 300px;
+    flex: 0 0 300px;
     margin: 1.5rem;
     height: 0%;
 }
 
 #JT-about-container {
     display: flex;
+    flex-direction: column;
     flex: 0 1 700px;
     margin: 1.5rem;
 }
@@ -29,7 +30,7 @@
     font-size: 1.2rem;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 880px) {
     #JT-info {
         flex-direction: column;
         align-items: center;
