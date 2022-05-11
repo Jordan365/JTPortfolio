@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 16px;
-
 }
 
 html {
@@ -19,9 +18,9 @@ header {
     text-align: center;
     display: flex;
     flex-direction: row;
-    color:#060606;
+    color:#000000;
     justify-content: center;
-    border-bottom: 2px solid #060606;
+    border-bottom: 2px solid #000000;
 }
 
 .headings {
@@ -47,21 +46,46 @@ nav {
 }
 
 .nav-items {
-    display: flex;
+    display: flex; 
     list-style-type: none;
     padding: 1rem;
     flex: 0 2 500px;
     justify-content: space-evenly;
 }
+.nav-item {
+    padding: 0.25rem;
+}
 
 .nav-item a:link, .nav-item a:visited {
-    color: #060606
+    color: #000000;
 }
 
 .nav-item a:hover {
-    color: #616161;
+    color: #565656;
 }
 
 .nav-item a:active {
     color:orange;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    border-top: 2px solid #000000;
+}
+
+@media screen and (max-width: 575px) {
+    .nav-items {
+        flex-direction: column;
+    }
+
+    .main-heading {
+        font-size: 1.5rem;
+    }
+
+    .sub-main-heading {
+        font-size: 1rem;
+    }
 }
