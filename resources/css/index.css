@@ -55,20 +55,22 @@
     list-style-type: none;
 }
 
-#best-project-names a {
+#best-project-names li {
     text-decoration: underline #060606 solid 1px;
     font-size: 1.3rem;
     color: #060606;
 }
 
-#best-project-names a:hover {
+#best-project-names li:hover {
     text-decoration: underline #fba92c solid 1px;
     color: #fba92c;
+    cursor: pointer;
 }
 
-#best-project-names a:active {
+#best-project-names li:active {
     text-decoration: underline #565656 solid 1px;
     color: #565656;
+    cursor: pointer;
 }
 
 #best-project-display {
@@ -96,6 +98,7 @@
     align-self: flex-start;
     justify-self: center;
     flex: 0 1;
+    display: hidden;
 }
 
 #best-project-display-right {
