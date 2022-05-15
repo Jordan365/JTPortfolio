@@ -69,11 +69,11 @@ nav {
 }
 
 .nav-item a:hover {
-    color: #565656;
+    color: #fba92c;
 }
 
 .nav-item a:active {
-    color: #fba92c;
+    color: #565656;
 }
 
 main {

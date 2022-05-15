@@ -33,6 +33,73 @@
     font-size: 1.2rem;
 }
 
+#best-projects {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+#best-projects-title {
+    align-self: flex-start;
+}
+
+#best-project-names {
+    flex: 0 1 300px;
+    border-right: #060606 solid 1px;
+}
+
+#best-project-names ul {
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+#best-project-names a {
+    text-decoration: underline #060606 solid 1px;
+    font-size: 1.3rem;
+    color: #060606;
+}
+
+#best-project-names a:hover {
+    text-decoration: underline #fba92c solid 1px;
+    color: #fba92c;
+}
+
+#best-project-names a:active {
+    text-decoration: underline #565656 solid 1px;
+    color: #565656;
+}
+
+#best-project-display {
+    display: flex;
+    max-width: 700px;
+}
+
+#best-project-display-left{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 400px;
+    margin: 0 1rem;
+}
+
+#best-project-img-container {
+    display: flex;
+    flex: 0 1;
+    margin: 5px 0;
+}
+
+#best-project-display-img {
+    width: 100%;
+    height: auto;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+#best-project-display-right {
+    display: flex;
+    flex: 0 1 300px;
+    padding-top: 20px;
+}
+
 #skills {
     display: flex;
     max-width: 1000px;
@@ -69,9 +136,6 @@
     transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out;
 }
 
-
-
-
 @media screen and (max-width: 880px) {
     #JT-info {
         flex-direction: column;
@@ -93,7 +157,7 @@
 @media (hover: none) {
     #skills-title::after {
         content: " - Click to find out more!";
-        color: #565656;
+        color: #fba92c;
         font-size: 0.5em;
     }
 
