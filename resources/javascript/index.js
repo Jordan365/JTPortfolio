@@ -37,3 +37,13 @@ function topProjectChange(event) {
 
     image.style.display = "block"
 }
+
+let title = document.getElementById("best-project-display-title");
+let image = document.getElementById("best-project-display-img");
+let description = document.getElementById("best-project-display-desc");
+
+title.innerHTML = "Project 1";
+image.src = "./resources/images/project1.jpg"
+image.alt = "Astronaut on moon drinking beer"
+description.innerHTML = "This is a description for the first project I created. Apparently this \n\
+                                 one is about an astronaut on the moon...";
