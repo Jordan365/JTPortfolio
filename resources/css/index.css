@@ -90,6 +90,10 @@
     }
 }
 
-@media screen and (max-width: 320px) {
-
+@media (hover: none) {
+    #skills-title::after {
+        content: " - Click to find out more!";
+        color: #565656;
+        font-size: 0.5em;
+    }
 }
