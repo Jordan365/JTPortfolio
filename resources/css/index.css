@@ -36,18 +36,23 @@
 #skills {
     display: flex;
     max-width: 1000px;
-    align-items: center;
     margin: 40px auto;
     flex-direction: column;
 }
 
+#skills-title {
+    align-self: flex-start;
+    margin: 0 1.5rem;
+}
+
 #skills-container {
-    margin: 10px 0;
+    margin: 10px 1.5rem;
     display: flex;
     width: 100%;
     flex: 0 1 100%;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-self: center;
 }
 
 .fa-brands {
@@ -67,6 +72,10 @@
         min-width: 120px;
         flex: 0 1 100px;
         margin: 1rem;
+    }
+
+    #JT-about-container {
+        flex: 0 1;
     }
 }
 

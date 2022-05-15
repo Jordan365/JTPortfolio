@@ -58,7 +58,7 @@ nav {
     list-style-type: none;
     padding: 1rem;
     flex: 0 2 500px;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .nav-item {
     padding: 0.25rem;
