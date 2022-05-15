@@ -178,7 +178,7 @@
 
 @media (hover: none) {
     #skills-title::after {
-        content: " - Click to find out more!";
+        content: " - Click an icon to find out more!";
         color: #fba92c;
         font-size: 0.5em;
     }
