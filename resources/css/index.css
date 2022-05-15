@@ -134,18 +134,20 @@
     align-self: center;
 }
 
-.fa-brands:hover {
-    color: #fba92c;
-    font-size: 2.5rem;
-}
-
 .fa-brands {
     color: #060606;
     font-size: 2rem;
     padding: 0 10px;
+    margin: 0.5rem 0;
     width: 80px;
     text-align: center;
-    transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out, margin 0.2s ease-in-out;
+}
+
+.fa-brands:hover {
+    color: #fba92c;
+    font-size: 2.5rem;
+    margin: 0.25rem 0;
 }
 
 @media screen and (max-width: 880px) {
