@@ -96,4 +96,9 @@
         color: #565656;
         font-size: 0.5em;
     }
+
+    .fa-brands:hover {
+        color: #060606;
+        font-size: 2rem;
+    }
 }
