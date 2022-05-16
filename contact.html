@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordan's Portfolio</title>
+    <script src="https://kit.fontawesome.com/f05dc9b1e8.js" crossorigin="anonymous"></script>
+    <script src="./resources/javascript/query.js"></script>
     <link rel="stylesheet" href="./resources/css/common.css" type="text/css">
     <link href="./resources/css/contact.css" rel="stylesheet" type="text/css">
 </head>
@@ -23,7 +25,35 @@
         </nav>
     </header>
     <main>
-
+        <section id="contact">
+            <h2 id="contact-title">Contact</h2><br>
+            <p class="contact-sub-title">Have a project you'd like to discuss with me? Click on an icon below to get in touch!</p>
+            <div id="contact-container">
+                <a href="mailto:jordanthomas365@hotmail.com?subject=I%20have%20an%20awesome%20project%20idea!" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/jordan365" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Jordan365" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </section>
+        <section id="contact-form">
+            <p class="contact-sub-title">You can also use the form below to send any queries!</p>
+            <form action="" method="POST" id="form-container">
+                <section id="form-names">
+                    <div class="input-pair">
+                        <label class="label" for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first" required>
+                    </div>
+                    <div class="input-pair">
+                        <label class="label" for="surname">Surname</label>
+                        <input type="text" id="surname" name="second" required>
+                    </div>
+                </section>
+                <section id="form-query" class="input-pair">
+                    <label class="label" for="query">Query</label>
+                    <textarea id="query" name="query" required></textarea>
+                </section>
+                <input id="form-submit" type="submit" value="Send!">
+            </form>
+        </section>
     </main>
     <footer>
         <div class="footer-box">

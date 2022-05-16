@@ -1,0 +1,87 @@
+
+#contact {
+    display: flex;
+    max-width: 700px;
+    margin: 40px auto;
+    flex-direction: column;
+}
+
+#contact-title {
+    align-self: flex-start;
+    margin: 0 1.5rem;
+}
+
+.contact-sub-title {
+    color:#060606;
+    align-self: flex-start;
+    margin: 0 1.5rem;
+}
+
+#contact-container {
+    margin: 10px 1.5rem;
+    display: flex;
+    width: 100%;
+    flex: 0 1 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.fa-brands, .fa-solid {
+    color: #060606;
+    font-size: 2rem;
+    padding: 0 10px;
+    margin: 0.5rem 0;
+    width: 80px;
+    text-align: center;
+    transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out, margin 0.2s ease-in-out;
+}
+
+.fa-brands:hover, .fa-solid:hover {
+    color: #fba92c;
+    font-size: 2.5rem;
+    margin: 0.25rem 0;
+}
+
+#contact-form {
+    display: flex;
+    max-width: 700px;
+    margin: 40px auto;
+    flex-direction: column;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1;
+}
+
+.input-pair {
+    display: inline-flex;
+    flex-direction: column;
+    flex: 0 1;
+    margin: 1rem 1.5rem;
+}
+
+#first-name, #surname {
+    max-width: 200px;
+}
+
+#query {
+    resize: none;
+    height: 15rem;
+    min-width: 200px;
+}
+
+#form-submit {
+    margin: 0 auto;
+    width: 100px;
+    flex: 0 0;
+}
+
+@media (hover: none) {
+    .fa-brands:hover {
+        color: #060606;
+        font-size: 2rem;
+    }
+}
