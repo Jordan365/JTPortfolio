@@ -71,6 +71,7 @@
     resize: none;
     height: 15rem;
     min-width: 200px;
+    font-family: Roboto, sans-serif;
 }
 
 #form-submit {
